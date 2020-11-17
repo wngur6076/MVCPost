@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "546c6b505fe8157bc11bd62a65245d8c",
+    "packages": [
+        {
+            "name": "pronist/eclair",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pronist/eclair.git",
+                "reference": "244dae682cec7d2a6ebe9da1f43d729ac700cf98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pronist/eclair/zipball/244dae682cec7d2a6ebe9da1f43d729ac700cf98",
+                "reference": "244dae682cec7d2a6ebe9da1f43d729ac700cf98",
+                "shasum": ""
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "3.5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eclair\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Eclair is a Simple PHP micro framework",
+            "support": {
+                "issues": "https://github.com/pronist/eclair/issues",
+                "source": "https://github.com/pronist/eclair/tree/master"
+            },
+            "time": "2020-05-31T07:57:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
