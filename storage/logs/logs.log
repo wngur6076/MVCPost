@@ -1,0 +1,22 @@
+ErrorException: Trying to get property '_csrfToken' of non-object in /Users/juhyeok/MVCPost/app/Middlewares/CsrfTokenMiddleware.php:12
+Stack trace:
+#0 /Users/juhyeok/MVCPost/app/Middlewares/CsrfTokenMiddleware.php(12): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Trying to get p...', '/Users/juhyeok/...', 12, Array)
+#1 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/RequestContext.php(82): App\Middlewares\CsrfTokenMiddleware::process()
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(36): Eclair\Routing\RequestContext->runMiddlewares()
+#3 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#7 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#8 {main}
+ErrorException: Trying to get property '_csrfToken' of non-object in /Users/juhyeok/MVCPost/app/Middlewares/CsrfTokenMiddleware.php:12
+Stack trace:
+#0 /Users/juhyeok/MVCPost/app/Middlewares/CsrfTokenMiddleware.php(12): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Trying to get p...', '/Users/juhyeok/...', 12, Array)
+#1 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/RequestContext.php(82): App\Middlewares\CsrfTokenMiddleware::process()
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(36): Eclair\Routing\RequestContext->runMiddlewares()
+#3 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#7 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#8 {main}
