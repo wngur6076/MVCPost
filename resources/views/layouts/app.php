@@ -19,7 +19,7 @@
             uk-navbar>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
-                    <li><a hre f="/">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="/users/register">Register</a></li>
                     <?php if (array_key_exists('user', $_SESSION)) : ?>
                     <li><a href="/posts/write">Write</a></li>

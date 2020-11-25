@@ -20,3 +20,255 @@ Stack trace:
 #6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
 #7 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
 #8 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('4')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '4')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('4')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '4')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('3')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '3')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('4')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '4')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('4')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '4')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('3')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '3')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('4')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '4')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('4')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '4')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('3')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '3')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('3')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '3')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: Undefined variable: title in /Users/juhyeok/MVCPost/resources/views/read.php:3
+Stack trace:
+#0 /Users/juhyeok/MVCPost/resources/views/read.php(3): App\Providers\ErrorServiceProvider::App\Providers\{closure}(8, 'Undefined varia...', '/Users/juhyeok/...', 3, Array)
+#1 /Users/juhyeok/MVCPost/resources/views/layouts/app.php(34): require_once('/Users/juhyeok/...')
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Support/Theme.php(37): require_once('/Users/juhyeok/...')
+#3 /Users/juhyeok/MVCPost/app/Controllers/PostController.php(34): Eclair\Support\Theme::view('read', Array)
+#4 [internal function]: App\Controllers\PostController::show('4')
+#5 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...', '4')
+#6 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(17): Eclair\Routing\Route::run()
+#7 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#8 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#9 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#10 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#11 {main}
+ErrorException: is_array() expects exactly 1 parameter, 2 given in /Users/juhyeok/MVCPost/app/Services/ImageService.php:10
+Stack trace:
+#0 [internal function]: App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'is_array() expe...', '/Users/juhyeok/...', 10, Array)
+#1 /Users/juhyeok/MVCPost/app/Services/ImageService.php(10): is_array('jpg', Array)
+#2 /Users/juhyeok/MVCPost/app/Controllers/ImageController.php(19): App\Services\ImageService::create(Array, Array, '/Users/juhyeok/...')
+#3 [internal function]: App\Controllers\ImageController::store()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...')
+#5 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#7 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#8 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#9 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#10 {main}
+ErrorException: is_array() expects exactly 1 parameter, 2 given in /Users/juhyeok/MVCPost/app/Services/ImageService.php:10
+Stack trace:
+#0 [internal function]: App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'is_array() expe...', '/Users/juhyeok/...', 10, Array)
+#1 /Users/juhyeok/MVCPost/app/Services/ImageService.php(10): is_array('jpg', Array)
+#2 /Users/juhyeok/MVCPost/app/Controllers/ImageController.php(19): App\Services\ImageService::create(Array, Array, '/Users/juhyeok/...')
+#3 [internal function]: App\Controllers\ImageController::store()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...')
+#5 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#7 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#8 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#9 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#10 {main}
+ErrorException: is_array() expects exactly 1 parameter, 2 given in /Users/juhyeok/MVCPost/app/Services/ImageService.php:10
+Stack trace:
+#0 [internal function]: App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'is_array() expe...', '/Users/juhyeok/...', 10, Array)
+#1 /Users/juhyeok/MVCPost/app/Services/ImageService.php(10): is_array('jpg', Array)
+#2 /Users/juhyeok/MVCPost/app/Controllers/ImageController.php(19): App\Services\ImageService::create(Array, Array, '/Users/juhyeok/...')
+#3 [internal function]: App\Controllers\ImageController::store()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...')
+#5 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#7 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#8 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#9 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#10 {main}
+ErrorException: is_array() expects exactly 1 parameter, 2 given in /Users/juhyeok/MVCPost/app/Services/ImageService.php:10
+Stack trace:
+#0 [internal function]: App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'is_array() expe...', '/Users/juhyeok/...', 10, Array)
+#1 /Users/juhyeok/MVCPost/app/Services/ImageService.php(10): is_array('jpg', Array)
+#2 /Users/juhyeok/MVCPost/app/Controllers/ImageController.php(19): App\Services\ImageService::create(Array, Array, '/Users/juhyeok/...')
+#3 [internal function]: App\Controllers\ImageController::store()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...')
+#5 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#7 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#8 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#9 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#10 {main}
+Error: Class 'App\Services\SplFileInfo' not found in /Users/juhyeok/MVCPost/app/Services/ImageService.php:9
+Stack trace:
+#0 /Users/juhyeok/MVCPost/app/Controllers/ImageController.php(19): App\Services\ImageService::create(Array, Array, '/Users/juhyeok/...')
+#1 [internal function]: App\Controllers\ImageController::store()
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...')
+#3 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#7 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#8 {main}
+Error: Class 'App\Services\SplFileInfo' not found in /Users/juhyeok/MVCPost/app/Services/ImageService.php:9
+Stack trace:
+#0 /Users/juhyeok/MVCPost/app/Controllers/ImageController.php(19): App\Services\ImageService::create(Array, Array, '/Users/juhyeok/...')
+#1 [internal function]: App\Controllers\ImageController::store()
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...')
+#3 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#7 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#8 {main}
+Error: Class 'App\Services\SplFileInfo' not found in /Users/juhyeok/MVCPost/app/Services/ImageService.php:9
+Stack trace:
+#0 /Users/juhyeok/MVCPost/app/Controllers/ImageController.php(19): App\Services\ImageService::create(Array, Array, '/Users/juhyeok/...')
+#1 [internal function]: App\Controllers\ImageController::store()
+#2 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...')
+#3 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#5 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#7 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#8 {main}
+ErrorException: is_array() expects exactly 1 parameter, 2 given in /Users/juhyeok/MVCPost/app/Services/ImageService.php:10
+Stack trace:
+#0 [internal function]: App\Providers\ErrorServiceProvider::App\Providers\{closure}(2, 'is_array() expe...', '/Users/juhyeok/...', 10, Array)
+#1 /Users/juhyeok/MVCPost/app/Services/ImageService.php(10): is_array('png', Array)
+#2 /Users/juhyeok/MVCPost/app/Controllers/ImageController.php(19): App\Services\ImageService::create(Array, Array, '/Users/juhyeok/...')
+#3 [internal function]: App\Controllers\ImageController::store()
+#4 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Routing/Route.php(37): call_user_func('\\App\\Controller...')
+#5 /Users/juhyeok/MVCPost/app/Providers/RouteServiceProvider.php(19): Eclair\Routing\Route::run()
+#6 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): App\Providers\RouteServiceProvider::boot()
+#7 [internal function]: Eclair\Application->Eclair\{closure}('App\\Providers\\R...', 4)
+#8 /Users/juhyeok/MVCPost/vendor/pronist/eclair/src/Application.php(32): array_walk(Array, Object(Closure))
+#9 /Users/juhyeok/MVCPost/public/index.php(13): Eclair\Application->boot()
+#10 {main}
